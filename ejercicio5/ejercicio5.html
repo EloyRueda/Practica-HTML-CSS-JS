@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario JavaScript</title>
+</head>
+<body>
+    <form name="validar" method="post">
+        Nombre: <input type="text" name="nombre" size="30" maxlength="80"> <br>
+        Edad: <input type="number" name="edad" size="3" maxlength="3"> <br>
+        Interés:
+            <select name="interes">
+                <option value="elegir">Elegir</option>
+                <option value="comercial">Contacto comercial</option>
+                <option value="clientes">Antención al cliente</option>
+                <option value="proveedores">Proveedores</option>
+            </select>
+        <br>
+
+
+        <input type="button" name="enviar" value="Enviar" onclick="validarform()"/>
+    </form>
+    <script src="./ejercicio5.js"></script>
+</body>
+</html>
